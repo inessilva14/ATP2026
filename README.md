@@ -1,6 +1,6 @@
 # ATP2026
 
-## Aluno
+## Aluna
 
 - **Nome:** Inês Maria Castro Silva
 - **ID:** A113293
