@@ -10,7 +10,7 @@
 ## Resumo 
 Neste 1º trabalho de casa, foi utilizada a plataforma Blocky Games para realizarmos dois desafios baseados em programação simples em blocos em diferentes modos, um no Maze e outro no Turtle.
 
-O primeiro desafio proposto foi a realização do nível 10 do Maze, na qual tinhamos que programar o percurso dum personagem até à chegada através de diversos comandos.
+O primeiro desafio proposto foi a realização do nível 10 do Maze, no qual tinhamos que programar o percurso dum personagem até à chegada através de diversos comandos.
 
 O segundo desafio consistiu na realização de um desenho previamente fornecido pelo professor dum barco à vela com outros elementos, tendo sido utilizado o Turtle para reproduzir o mesmo através de diversos comandos de direção, distâncias, etc.
 
