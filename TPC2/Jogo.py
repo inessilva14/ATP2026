@@ -5,11 +5,19 @@ import random
 def mod1():
     num1 = random.randint(0,100)
     tentativas1 = 0
-    palpite1 = int(input("Pensei num número entre 0 e 100. Tenta adivinhar qual é: "))
+    palpite1_validar = False
 
-    while palpite1 < 0 or palpite1 > 100:
-        print("!! Valor inválido. Tem de ser um número inteiro entre 0 e 100. !!")
-        palpite1 = int(input("Introduz um número entre 0 e 100: "))
+    while palpite1_validar == False:
+        try:
+            palpite1 = int(input("Pensei num número entre 0 e 100. Tenta adivinhar qual é: "))
+
+            if palpite1 < 0 or palpite1 > 100:
+                print("!! Valor inválido !! Tem de ser um número inteiro entre 0 e 100. ")
+            else:
+                palpite1_validar = True
+
+        except ValueError:
+            print("!! Valor inválido !! Tens de escrever um número inteiro. ")
 
     while palpite1 != num1:
 
@@ -20,7 +28,7 @@ def mod1():
         else:
             print("O número que pensei é Menor.")
 
-        palpite1 = int(input("Ainda não acertaste. Tenta outra vez: "))
+        palpite1 = int(input("Tenta outra vez: "))
 
     tentativas1 = tentativas1 + 1
     print(f"Parabéns! Acertaste! O número é {num1} e usaste {tentativas1} tentativas.")
