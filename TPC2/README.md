@@ -16,7 +16,8 @@ Este jogo apresenta 2 modalidades:
 
 Em ambas as modalidades, quem tenta adivinhar o número recebe uma das afirmações: "Acertou", "O número que pensei é Maior" ou "O número que pensei é Menor". 
 Além disso, uma vez descoberto o número, o programa termina imprimindo também o número de tentativas usadas para chegar ao resultado correto.
-Implementei também diversas verificações de modo a impedir que o utilizador 
+
+Implementei, também, diversas verificações de modo a impedir que o utilizador inserisse letras ao invés de números e números fora do intervalo solicitado.
 
 ## Lista de Resultados
 
