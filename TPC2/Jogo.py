@@ -78,15 +78,24 @@ def mod_principal():
     print("  - Modalidade 1: O computador pensa, tu adivinhas")
     print("  - Modalidade 2: Tu pensas, o computador adivinha")
 
-    opcao_valida = int(input("Escolhe a modalidade que queres jogar, 1 ou 2? "))
+    opcao_validar = False
 
-    while opcao_valida != 1 and opcao_valida != 2:
-        print("Essa opção de modalidade não é válida. Tenta novamente! ")
-        opcao_valida = int(input("Qual modalidade queres jogar, 1 ou 2? "))
+    while opcao_validar == False:
+        try:
 
-    if opcao_valida == 1:
+            opcao = int(input("Escolhe a modalidade que queres jogar, 1 ou 2? "))
+
+            if opcao != 1 and opcao != 2:
+                print("Essa opção de modalidade não é válida. Tenta novamente! ")
+            else:
+                opcao_validar = True
+
+        except ValueError:
+            print("!! Valor inválido !! Tens de escrever um número inteiro (1 ou 2) ")
+        
+    if opcao == 1:
         mod1()
-    elif opcao_valida == 2:
+    elif opcao == 2:
         mod2()
     
 mod_principal()
