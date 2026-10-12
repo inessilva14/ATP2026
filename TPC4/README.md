@@ -9,8 +9,7 @@
 
 ## Resumo
 
-- Neste 4º trabalho de casa, foi-nos solicitada a criação de uma aplicação em Pythonque analisa e altera listas de inteiros através de diversas operações.
-- O menu da aplicação deve ser o seguinte:
+- Neste 4º trabalho de casa, foi-nos solicitada a criação de uma aplicação em Pythonque analisa e altera listas de inteiros através de diversas operações. O menu da aplicação deve ser o seguinte:
     * (1) Criar Lista 
     * (2) Ler Lista
     * (3) Soma
