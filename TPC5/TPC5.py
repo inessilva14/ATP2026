@@ -39,7 +39,7 @@ def listarTurma(turma):
         principal()
     else:
         for aluno in turma:
-            print(f"Nome: {aluno[0]} \nId: {aluno[1]} \nNota do TPC: {aluno[2][0]} \nNota do Projeto: {aluno[2][1]} \nNota do Teste: {aluno[2][2]}")
+            print(f"Nome: {aluno[0]} \nId: {aluno[1]} \nNota do TPC: {aluno[2][0]} \nNota do Projeto: {aluno[2][1]} \nNota do Teste: {aluno[2][2]}\n")
 
 def consultarAluno(turma):
     encontrado = False
