@@ -31,3 +31,4 @@
 ## Lista de Resultados
 
 - [Código do TPC5](TPC5.py)
+- [Exemplo da turma de 5 alunos](Turma 10ºA.txt)
