@@ -43,13 +43,13 @@ def listarTurma(turma):
 
 def consultarAluno(turma):
     encontrado = False
-    id_cons = input("Introduza o id do aluno7a que pretende consultar: ")
+    id_cons = input("Introduza o id do aluno/a que pretende consultar: ")
     for aluno in turma:
         if aluno[1] == id_cons:
             print(F"Estas são as informações do aluno/a que consultou com id {id_cons}: \nNome: {aluno[0]} \nNota do TPC: {aluno[2][0]} \nNota do Projeto: {aluno[2][1]} \nNota do Teste: {aluno[2][2]}")
             encontrado = True
     if encontrado == False:
-        print("O id que indicou não corresponde a nenhum aluno7a da turma. Tente novamente!")
+        print("O id que indicou não corresponde a nenhum aluno/a da turma. Tente novamente!")
 
 def guardarTurma(turma):
     nomefile = input("Indica o nome que queres dar ao teu ficheiro: ")
