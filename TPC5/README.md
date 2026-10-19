@@ -27,3 +27,7 @@
 * No fim de ser executada a operação selecionada, deve ser apresentado novamente o menu, pedindo ao utlizadpr a opção para continuar ou sair.
 
 * Por fim, foi-nos indicado que utilizassemos a aplicação para criar uma turma com 5 alunos, como exemplo.
+
+## Lista de Resultados
+
+- [Código do TPC5](TPC5.py)

@@ -1,6 +1,6 @@
 def criarTurma():
     turma = []
-    nometurma = input("Que nome queres dar à tua turma?")
+    nometurma = input("Que nome queres dar à tua turma? ")
     print(f"Turma {nometurma} criada com sucesso!")
     return turma
 
